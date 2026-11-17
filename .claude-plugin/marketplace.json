@@ -1,0 +1,15 @@
+{
+  "name": "ascend",
+  "owner": {
+    "name": "Ascend",
+    "url": "https://ascend.so"
+  },
+  "description": "Ascend's plugin for Claude: Instagram Reels research from your own Ascend account",
+  "plugins": [
+    {
+      "name": "ascend",
+      "source": "./ascend",
+      "description": "Adds the /ascend command: break down a Reel, get its transcript, compare Reels, read an account, see what is working in a niche"
+    }
+  ]
+}
