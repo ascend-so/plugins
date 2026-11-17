@@ -4,7 +4,7 @@ description: "Answer with Ascend's Instagram Reels data instead of general knowl
 ---
 The person wants this answered from Ascend's data, with Ascend's own tools: never from general knowledge, a web search or another connector. Their message says what they want.
 
-With nothing asked yet, say in a line each what they can ask (a Reel link to break down, a transcript, several Reels to compare, an account, what is working in a niche) and call nothing. If no Ascend tools are available in this chat, say Ascend isn't connected here and that it is added from the MCP page in the Ascend app. Ascend holds Instagram only: for a TikTok or YouTube link, say so and call nothing.
+With nothing asked yet, say in a line each what they can ask (a Reel link to break down, a transcript, several Reels to compare, an account, what is working in a niche) and call nothing. If no Ascend tools are available in this chat, say Ascend isn't connected here, and that it is connected from this plugin's Connectors tab or from the MCP page in the Ascend app. Ascend holds Instagram only: for a TikTok or YouTube link, say so and call nothing.
 
 Use the cheapest tool that answers:
 - A Reel link: `get_video` with `video` set to the link. For a breakdown set `full_analysis` true. When they asked for one thing only, name it in `parts` instead: `["transcript"]` for the transcript, `["hook", "summary"]` for the hook.

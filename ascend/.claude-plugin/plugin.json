@@ -1,11 +1,17 @@
 {
   "name": "ascend",
   "displayName": "Ascend",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Adds the /ascend command: break down a Reel, get its transcript, compare Reels, read an account, see what is working in a niche",
   "author": {
     "name": "Ascend",
     "url": "https://ascend.so"
   },
-  "homepage": "https://ascend.so"
+  "homepage": "https://ascend.so",
+  "repository": "https://github.com/ascend-so/plugins",
+  "license": "MIT",
+  "icon": "./logo.png",
+  "supportUrl": "https://ascendviral.com/contact-us/",
+  "privacyPolicyUrl": "https://ascend.so/privacy",
+  "termsOfServiceUrl": "https://ascend.so/terms"
 }
