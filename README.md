@@ -11,7 +11,7 @@ The plugin brings the Ascend connector with it. After you add the plugin, open i
 
 ## What it sends
 
-The plugin itself is one text file that tells Claude how to use Ascend's tools. It runs no code and sends nothing on its own. When you use it, Claude calls the Ascend connector at `https://mcp.ascend.so/mcp` with what the request needs: Reel links, @handles, search words, or a question for Ascend's own assistant. Ascend's answers use your account's Ascend credits, as in the app, and Claude asks before the first paid call. Ascend's privacy policy: https://ascend.so/privacy.
+The plugin itself is one text file that tells Claude how to use Ascend's tools. It runs no code and sends nothing on its own. When you use it, Claude calls the Ascend connector at `https://mcp.ascend.so/mcp` with what the request needs: Reel links, @handles, search words, or a question for Ascend's own assistant. Lookups use your account's Ascend credits at the app's prices and only read, so Claude runs them without asking. Claude asks first before a question to Ascend's own assistant, or saving or tracking a creator. Ascend's privacy policy: https://ascend.so/privacy.
 
 ## Add it
 
