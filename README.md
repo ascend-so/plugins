@@ -1,4 +1,4 @@
-# Ascend for Claude
+# Ascend.so for Claude
 
 Adds one command to Claude, `/ascend`, for people who use Ascend. It answers from your own Ascend account's Instagram Reels data.
 
@@ -19,11 +19,11 @@ On claude.ai or in the Claude desktop app:
 
 1. Open Customize, then Plugins.
 2. Choose Add, then Add marketplace, and enter `ascend-so/plugins`.
-3. Add Ascend from the list, then connect Ascend on the plugin's Connectors tab if it isn't connected yet.
+3. Add Ascend.so from the list, then connect Ascend on the plugin's Connectors tab if it isn't connected yet.
 
 Start a new chat afterwards. To get later improvements without doing anything, turn on "Sync automatically" for this marketplace.
 
-In Claude Code: `/plugin marketplace add ascend-so/plugins`, then `/plugin install ascend@ascend`.
+In Claude Code: `/plugin marketplace add ascend-so/plugins`, then `/plugin install ascend-so@ascend-so`.
 
 ## Use it
 

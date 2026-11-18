@@ -1,10 +1,10 @@
 {
-  "name": "ascend",
-  "displayName": "Ascend",
-  "version": "0.2.1",
+  "name": "ascend-so",
+  "displayName": "Ascend.so",
+  "version": "0.3.0",
   "description": "Adds the /ascend command: break down a Reel, get its transcript, compare Reels, read an account, see what is working in a niche",
   "author": {
-    "name": "Ascend",
+    "name": "Ascend Viral LLC",
     "url": "https://ascend.so"
   },
   "homepage": "https://ascend.so",
