@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "ascend": {
+    "ascend-so": {
       "type": "http",
       "url": "https://mcp.ascend.so/mcp"
     }

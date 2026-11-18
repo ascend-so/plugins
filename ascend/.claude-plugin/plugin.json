@@ -1,8 +1,16 @@
 {
   "name": "ascend-so",
   "displayName": "Ascend.so",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Adds the /ascend command: break down a Reel, get its transcript, compare Reels, read an account, see what is working in a niche",
+  "keywords": [
+    "instagram",
+    "reels",
+    "creators",
+    "short-form video",
+    "content research",
+    "social media"
+  ],
   "author": {
     "name": "Ascend Viral LLC",
     "url": "https://ascend.so"
