@@ -1,7 +1,7 @@
 {
   "name": "ascend-so",
   "displayName": "Ascend.so",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Adds the /ascend command: break down a Reel, get its transcript, compare Reels, read an account, see what is working in a niche",
   "keywords": [
     "instagram",
@@ -16,6 +16,7 @@
     "url": "https://ascend.so"
   },
   "homepage": "https://ascend.so",
+  "documentationUrl": "https://ascend.so/connector/",
   "repository": "https://github.com/ascend-so/plugins",
   "license": "MIT",
   "icon": "./logo.png",
