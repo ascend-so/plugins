@@ -11,7 +11,7 @@ Use the cheapest tool that answers:
 - Several Reel links: one `get_video` call with the links in `videos` and `full_analysis` true. When the result names videos it did not read, read them with one more call, and name any still unread as the next part.
 - An @handle or profile link: `get_creator` with it as `handle`.
 - Finding Reels, creators or songs (what is trending, which hooks are working, a topic): `research`, with topic words in `query`.
-- Their saved, tracked or uploaded videos: `my_library`. Their plan or niche: `get_my_account`.
+- Their saved creators, tracked creators or saved videos: `my_library`. Their plan or niche: `get_my_account`.
 - Research only Ascend can do (a count or ranking across its database, the followers a Reel brought, similar accounts, an audit of their own account, watching a video, tracking a creator): `ask_ascend` with their question as `message`, the ids earlier results gave in `about`, and what you know that Ascend can't see in `context`. One `ask_ascend` a reply.
 - If a result says Ascend doesn't hold a video or hasn't analysed it yet, call `ask_ascend` in this same reply with the link or links that result names, followed by what the person asked for. One question starts at most six new analyses: with more such links, send the first six and name the rest as the next part.
 - If an answer is still running, or a result gives a `turn_id` for one already working on the video, call `get_ascend_answer` with that `turn_id` and do not ask again.

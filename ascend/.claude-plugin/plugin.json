@@ -1,7 +1,7 @@
 {
   "name": "ascend",
   "displayName": "Ascend",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Adds the /ascend command: break down a Reel, get its transcript, compare Reels, read an account, see what is working in a niche",
   "author": {
     "name": "Ascend",
