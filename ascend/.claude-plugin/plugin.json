@@ -1,7 +1,7 @@
 {
   "name": "ascend-so",
   "displayName": "Ascend.so",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Adds the /ascend command: break down a Reel, get its transcript, compare Reels, read an account, see what is working in a niche",
   "keywords": [
     "instagram",

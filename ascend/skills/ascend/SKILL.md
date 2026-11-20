@@ -4,7 +4,7 @@ description: "Answer with Ascend's Instagram Reels data instead of general knowl
 ---
 The person wants this answered from Ascend's data, with Ascend's own tools: never from general knowledge, a web search or another connector. Their message says what they want.
 
-With nothing asked yet, say in a line each what they can ask (a Reel link to break down, a transcript, several Reels to compare, an account, what is working in a niche) and call nothing. If no Ascend tools are available in this chat, say Ascend isn't connected here, and that it is connected from this plugin's Connectors tab or from the MCP page in the Ascend app. Ascend holds Instagram only: for a TikTok or YouTube link, say so and call nothing.
+With nothing asked yet, say in a line each what they can ask (a Reel link to break down, a transcript, several Reels to compare, an account, what is working in a niche, a video of their own to upload) and call nothing. If no Ascend tools are available in this chat, say Ascend isn't connected here, and that it is connected from this plugin's Connectors tab or from the MCP page in the Ascend app. Ascend holds Instagram only: for a TikTok or YouTube link, say so and call nothing.
 
 Use the cheapest tool that answers:
 - A Reel link: `get_video` with `video` set to the link. For a breakdown set `full_analysis` true. When they asked for one thing only, name it in `parts` instead: `["transcript"]` for the transcript, `["hook", "summary"]` for the hook.
@@ -12,6 +12,7 @@ Use the cheapest tool that answers:
 - An @handle or profile link: `get_creator` with it as `handle`.
 - Finding Reels, creators or songs (what is trending, which hooks are working, a topic): `research`, with topic words in `query`.
 - Their saved creators, tracked creators or saved videos: `my_library`. Their plan or niche: `get_my_account`.
+- A video of their own to upload (they say upload, or the message has a video file): `upload_video`, then ask them to press Upload a video on the Ascend card and pick the file, unless the result already names the upload. Once the upload has its id (`draft:<id>`, from the result or the card), answer what they ask about that video with `ask_ascend`, that id in `about`.
 - Research only Ascend can do (a count or ranking across its database, the followers a Reel brought, similar accounts, an audit of their own account, watching a video, tracking a creator): `ask_ascend` with their question as `message`, the ids earlier results gave in `about`, and what you know that Ascend can't see in `context`. One `ask_ascend` a reply.
 - If a result says Ascend doesn't hold a video or hasn't analysed it yet, call `ask_ascend` in this same reply with the link or links that result names, followed by what the person asked for. One question starts at most six new analyses: with more such links, send the first six and name the rest as the next part.
 - If an answer is still running, or a result gives a `turn_id` for one already working on the video, call `get_ascend_answer` with that `turn_id` and do not ask again.

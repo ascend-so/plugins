@@ -11,7 +11,7 @@ The plugin brings the Ascend connector with it. After you add the plugin, open i
 
 ## What it sends
 
-The plugin itself is one text file that tells Claude how to use Ascend's tools. It runs no code and sends nothing on its own. When you use it, Claude calls the Ascend connector at `https://mcp.ascend.so/mcp` with what the request needs: Reel links, @handles, search words, or a question for Ascend's own assistant. Lookups use your account's Ascend credits at the app's prices and only read, so Claude runs them without asking. Claude asks first before a question to Ascend's own assistant, or saving or tracking a creator. Ascend's privacy policy: https://ascend.so/privacy.
+The plugin itself is one text file that tells Claude how to use Ascend's tools. It runs no code and sends nothing on its own. When you use it, Claude calls the Ascend connector at `https://mcp.ascend.so/mcp` with what the request needs: Reel links, @handles, search words, or a question for Ascend's own assistant. Lookups use your account's Ascend credits at the app's prices and only read, so Claude runs them without asking. Claude asks first before a question to Ascend's own assistant, uploading a video, or saving or tracking a creator. Ascend's privacy policy: https://ascend.so/privacy.
 
 ## Add it
 
@@ -34,6 +34,7 @@ Type `/ascend`, then what you want:
 - `/ascend` with several Reel links says what they have in common.
 - `/ascend what hooks are working in skincare right now`
 - `/ascend how is @handle growing`
+- `/ascend upload` lets you upload a video of your own for Ascend to look at, an MP4 or MOV: press Upload a video on the card, then ask about it.
 - `/ascend` on its own lists what you can ask.
 
 In Claude Code and Cowork the command is written `/ascend:ascend`.
